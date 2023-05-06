@@ -9,10 +9,10 @@ import re
 import random
 from langchain.memory import ConversationBufferWindowMemory
 
-API_KEY = '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'
+API_KEY = ''
 global tools
-os.environ["GOOGLE_CSE_ID"] = "d52e4f02284464db8"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAOAV_s4zOo9pjpXlFm28Ya-asMozeDMRU"
+os.environ["GOOGLE_CSE_ID"] = ""
+os.environ["GOOGLE_API_KEY"] = ""
 moods = [
     "happy",
     "sad",
